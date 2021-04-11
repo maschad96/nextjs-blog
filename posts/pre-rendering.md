@@ -1,7 +1,7 @@
 ---
 title: Two Forms of Pre-rendering
-date: '2020-01-01'
-thumbnail: public/profile.jpeg
+date: January 22, 2020 1:01 AM
+thumbnail: images/2021-03-17-08.30.04.jpg
 rating: 5
 ---
 
