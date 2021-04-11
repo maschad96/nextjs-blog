@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
@@ -27,7 +26,7 @@ const Layout = ({ children, home }) => (
 		<header className={styles.header}>
 			{home ? (
 				<>
-					<Image
+					<img
 						priority
 						src="/images/profile.jpeg"
 						className={utilStyles.borderCircle}
@@ -41,7 +40,7 @@ const Layout = ({ children, home }) => (
 				<>
 					<Link href="/">
 						<a>
-							<Image
+							<img
 								priority
 								src="/images/profile.jpeg"
 								className={utilStyles.borderCircle}
