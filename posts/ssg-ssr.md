@@ -1,6 +1,6 @@
 ---
 title: When to Use Static Generation v.s. Server-side Rendering
-date: 04/15/2021
+date: 04/20/2021
 thumbnail: images/2021-03-17-08.30.04.jpg
 rating: 2
 ---
