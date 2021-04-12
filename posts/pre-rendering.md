@@ -1,6 +1,6 @@
 ---
 title: Two Forms of Pre-rendering
-date: January 22, 2020 1:01 AM
+date: 01/22/20
 thumbnail: images/2021-03-17-08.30.04.jpg
 rating: 5
 ---
