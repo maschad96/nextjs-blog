@@ -1,0 +1,13 @@
+blockquote {
+    position: relative;
+    font-size: 0.9rem;
+    &::before {
+        border-left: 3px solid $light-blue;
+        content: '';
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -2rem;
+    }
+}
