@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Date from '../components/date';
-import Layout, { siteTitle } from '../components/layout'
+import Date from '../components/date'
+import Layout from '../components/layout'
 import { getSortedPostsData } from '../lib/posts'
+import { writeRssFeed } from '../lib/feed'
+import { siteTitle } from '../lib/siteInfo'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home({ allPostsData }) {
@@ -44,6 +46,7 @@ export default function Home({ allPostsData }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+  await writeRssFeed();
   return {
     props: {
       allPostsData

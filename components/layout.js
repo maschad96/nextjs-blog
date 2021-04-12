@@ -2,9 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-
-const name = 'Matthew Schad'
-export const siteTitle = 'Matthew Schad - Blog about Software Engineering'
+import { name, siteTitle } from '../lib/siteInfo';
 
 const Layout = ({ children, home }) => (
 	<div className={styles.container}>
