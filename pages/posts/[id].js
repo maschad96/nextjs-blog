@@ -39,7 +39,7 @@ export async function getStaticProps({ params }) {
 	// Fetch necessary data for the blog post using params.id
 	const postData = await getPostData(params.id);
 	const ogImage = await getOgImage(
-		`/ogImage?title=${encodeURIComponent(postData.title)}&url=${process.env.DEPLOY_URL}/${params.id}`
+		`/ogImage?title=${encodeURIComponent(postData.title)}&url=${process.env.DEPLOY_URL || 'http://localhost:3000'}/${params.id}`
 	);
 	return {
 		props: {
