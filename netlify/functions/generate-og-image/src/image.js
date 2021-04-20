@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import { GoogleFonts } from "next-google-fonts";
+import { render } from 'react-dom';
+
 
 function getFontSize(length) {
 	if (length >= 50) {
@@ -74,4 +76,4 @@ const ogImage = () => {
 	);
 };
 
-export default ogImage;
+render(ogImage, document.getElementById('corgi'));
