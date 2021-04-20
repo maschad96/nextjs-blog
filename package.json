@@ -16,6 +16,7 @@
         "netlify-cms-app": "^2.14.40",
         "next": "^10.0.0",
         "next-google-fonts": "^2.2.0",
+        "playwright": "^1.10.0",
         "playwright-aws-lambda": "^0.6.0",
         "playwright-core": "^1.10.0",
         "react": "17.0.1",
