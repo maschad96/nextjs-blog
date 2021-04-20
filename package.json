@@ -10,14 +10,23 @@
     },
     "dependencies": {
         "classnames": "^2.3.1",
+        "crypto": "^1.0.1",
         "date-fns": "^2.20.1",
         "gray-matter": "^4.0.2",
         "netlify-cms-app": "^2.14.40",
         "next": "^10.0.0",
+        "next-google-fonts": "^2.2.0",
+        "playwright-aws-lambda": "^0.6.0",
+        "playwright-core": "^1.10.0",
         "react": "17.0.1",
         "react-dom": "17.0.1",
         "remark": "^13.0.0",
         "remark-html": "^13.0.1",
         "sass": "^1.32.8"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.10",
+        "tailwindcss": "^2.1.1"
     }
 }
