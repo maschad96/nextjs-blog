@@ -4,8 +4,6 @@ import commonjs from '@rollup/plugin-commonjs';
 import builtins from 'rollup-plugin-node-builtins';
 import globals from 'rollup-plugin-node-globals';
 import replace from '@rollup/plugin-replace';
-import React from 'react';
-import ReactDOM from 'react-dom';
 
 const config = {
 	input: './src/image.js',
