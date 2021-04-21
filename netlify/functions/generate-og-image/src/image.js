@@ -14,7 +14,7 @@ function getFontSize(length) {
 }
 
 // Example URL: http://localhost:3000/ogImage?title=Hello%20mein%20Name%20ist%20Florian!&url=https://mattjschad.com/hello-world
-const ogImage = () => {
+const Image = () => {
 	return (
 		<div
 			className="relative flex flex-col justify-between p-16 text-gray-100 bg-gray-900 shadow-md"
@@ -59,4 +59,4 @@ const ogImage = () => {
 	);
 };
 
-render(<ogImage />, document.getElementById('corgi'));
+render(<Image />, document.getElementById('corgi'));
