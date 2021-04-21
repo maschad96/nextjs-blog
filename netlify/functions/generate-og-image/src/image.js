@@ -21,15 +21,13 @@ const Image = () => {
 			style={{ width: 1200, height: 630 }}
 		>
 			<div className="max-w-screen-lg space-y-2">
-				{date && readTime && <p className="text-3xl font-semibold text-gray-600 font-source-sans-pro">
-					<span>{date}</span> — <span>{readTime}</span>
-				</p>}
+				{/* {date && readTime && <p className="text-3xl font-semibold text-gray-600 font-source-sans-pro">
+					<span>date</span> — <span>read time</span>
+				</p>} */}
 				<h1
-					className={`${getFontSize(
-						title.length
-					)} font-bold text-gray-100 font-source-sans-pro`}
+					className={`font-bold text-gray-100 font-source-sans-pro`}
 				>
-					{title}
+					title
 				</h1>
 			</div>
 			<div className="flex justify-between">
