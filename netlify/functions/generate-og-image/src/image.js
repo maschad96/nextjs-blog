@@ -59,4 +59,4 @@ const ogImage = () => {
 	);
 };
 
-render(ogImage, document.getElementById('corgi'));
+render(<ogImage />, document.getElementById('corgi'));
