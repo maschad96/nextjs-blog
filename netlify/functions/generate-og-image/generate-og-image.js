@@ -12,19 +12,20 @@ const handler = async (event, ctx) => {
   });
   const page = await context.newPage();
   await page.setContent(`< !DOCTYPE html >
-  <html>
-    <head>
-      <meta charset="utf-8" />
-    </head>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+      </head>
 
-    <body>
-      <div id="corgi"><div>CORGIIIS</div></div>
-    </body>
-  </html>
-`);
+      <body>
+        <div id="corgi"><div>CORGIIIS</div></div>
+      </body>
+    </html>
+  `);
   await page.addScriptTag({ content: script })
   const boundingRect = await page.evaluate(() => {
     const corgi = document.getElementById("corgi");
+    console.log(corgi);
     const { x, y, width, height } = corgi.children[0].getBoundingClientRect();
     return { x, y, width, height };
   });
