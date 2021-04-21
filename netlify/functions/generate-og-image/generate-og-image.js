@@ -12,6 +12,9 @@ const handler = async (event, ctx) => {
     deviceScaleFactor: process.env.NETLIFY === 'true' ? 1 : 2,
   });
   const page = await context.newPage();
+  page.on('pageerror', exception => {
+    console.log(`Uncaught exception: "${exception}"`);
+  });
   await page.setContent(`< !DOCTYPE html >
     <html>
       <head>
