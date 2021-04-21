@@ -44,14 +44,14 @@ const Image = () => {
 							Matthew Schad
               				</p>
 						<p className="text-2xl font-semibold tracking-wide text-indigo-400 font-open-sans">
-							mattjschad.com<span className="path">{linkURL.pathname}</span>
+							mattjschad.com<span className="path">/</span>
 						</p>
 						<p
 							className="text-2xl font-semibold tracking-wide font-source-sans-pro"
 							style={{ color: "#1D9BF0" }}
 						>
 							twitter.com/mattjschad
-              				</p>
+						</p>
 					</div>
 				</div>
 			</div>
