@@ -26,6 +26,7 @@ const handler = async (event, ctx) => {
       </body>
     </html>
   `);
+  await page.addStyleTag({ url: 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css' })
   await page.addScriptTag({ content: script })
   const corgi = await page.evaluate(() => {
     return document.getElementById("corgi");
