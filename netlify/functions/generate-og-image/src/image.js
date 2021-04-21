@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import { GoogleFonts } from "next-google-fonts";
 import { render } from 'react-dom';
 
@@ -17,18 +16,6 @@ function getFontSize(length) {
 
 // Example URL: http://localhost:3000/ogImage?title=Hello%20mein%20Name%20ist%20Florian!&url=https://mattjschad.com/hello-world
 const ogImage = () => {
-	const router = useRouter();
-
-	const searchParams = new URLSearchParams(router.asPath.split(/\?/)[1]);
-	const link = searchParams.get("url");
-
-	if (!link) return null;
-
-	const linkURL = new URL(link);
-	const title = searchParams.get("title");
-	const date = searchParams.get("date");
-	const readTime = searchParams.get("readTime");
-
 	return (
 		<>
 			<GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap" />
