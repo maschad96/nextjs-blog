@@ -18,12 +18,8 @@ const config = {
 		babel({
 			exclude: "node_modules/**"
 		}),
-		commonjs({
-			namedExports: {
-				'react-dom': Object.keys(ReactDOM),
-				'react': Object.keys(React)
-			}
-		}), replace({ "process.env.NODE_ENV": JSON.stringify("production") }),
+		commonjs(),
+		replace({ "process.env.NODE_ENV": JSON.stringify("production") }),
 		globals(),
 		builtins()
 	]
