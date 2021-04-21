@@ -5,6 +5,7 @@ const script = fs.readFileSync(path.join(__dirname, '/image.js'), 'utf-8');
 
 
 const handler = async (event, ctx) => {
+  console.log('script: ', script);
   const browser = await playwright.launchChromium();
   const context = await browser.newContext({
     viewport: { width: 1200, height: 630 },
