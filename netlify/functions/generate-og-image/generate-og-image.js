@@ -23,6 +23,10 @@ const handler = async (event, ctx) => {
     </html>
   `);
   await page.addScriptTag({ content: script })
+  const corgi = await page.evaluate(() => {
+    return document.getElementById("corgi");
+  });
+  console.log(corgi);
   const boundingRect = await page.evaluate(() => {
     const corgi = document.getElementById("corgi");
     console.log(corgi);
