@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from '@emotion/core';
 import { render } from 'react-dom';
 
 
@@ -18,12 +20,9 @@ function App() {
 	return (
 		<div
 			className="relative flex flex-col justify-between p-16 text-gray-100 bg-gray-900 shadow-md"
-			style={{ width: 1200, height: 630 }}
+			css={{ width: 1200, height: 630 }}
 		>
 			<div className="max-w-screen-lg space-y-2">
-				{/* {date && readTime && <p className="text-3xl font-semibold text-gray-600 font-source-sans-pro">
-					<span>date</span> — <span>read time</span>
-				</p>} */}
 				<h1
 					className={`font-bold text-gray-100 font-source-sans-pro`}
 				>
@@ -46,7 +45,7 @@ function App() {
 						</p>
 						<p
 							className="text-2xl font-semibold tracking-wide font-source-sans-pro"
-							style={{ color: "#1D9BF0" }}
+							css={{ color: "#1D9BF0" }}
 						>
 							twitter.com/mattjschad
 						</p>
