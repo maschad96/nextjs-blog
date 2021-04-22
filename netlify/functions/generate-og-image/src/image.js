@@ -32,9 +32,9 @@ function App() {
 			<div className="flex justify-between">
 				<div className="flex items-center space-x-6">
 					<img
-						src='profile.jpeg'
+						src={window.base64Profile}
 						alt="Matthew Schad"
-						className="flex-none w-32 h-32 border-4 border-gray-200 rounded-full"
+						className="flex-none w-32 h-32 border-4 border-gray-200 rounded-full profile"
 					/>
 					<div className="flex flex-col gap">
 						<p className="mb-1 text-3xl font-semibold text-gray-200 font-source-sans-pro">

@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const playwright = require('playwright-aws-lambda');
 const script = fs.readFileSync(path.join(__dirname, '/image.js'), 'utf-8');
+const profileImage = fs.readFileSync(path.join(__dirname), 'profile.jpeg', { encoding: 'base64' })
 
 
 const handler = async (event, ctx) => {
-  console.log('script: ', script);
   const browser = await playwright.launchChromium();
   const context = await browser.newContext({
     viewport: { width: 1200, height: 630 },
@@ -27,11 +27,13 @@ const handler = async (event, ctx) => {
     </html>
   `);
   await page.addStyleTag({ url: 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css' })
-  await page.addScriptTag({ content: script })
-  const corgi = await page.evaluate(() => {
-    return document.getElementById("corgi");
-  });
-  console.log(corgi);
+  await page.addScriptTag({
+    content: `
+    window.base64Profile = ${profileImage};
+  ` });
+  console.log(profileImage)
+  await page.addScriptTag({ content: script });
+
   const boundingRect = await page.evaluate(() => {
     const corgi = document.getElementById("corgi");
     console.log(corgi);
