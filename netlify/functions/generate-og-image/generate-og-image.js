@@ -34,7 +34,7 @@ const handler = async (event, ctx) => {
 	await page.addScriptTag({
 		content: `
     window.title = "${queryStringParameters.title || 'No Title'}";
-    window.path = "${queryStringParameters.id}";
+    window.path = "${queryStringParameters.id || ''}";
     window.base64Profile = "data:image/png;base64, ${profileImage}";
   `,
 	});

@@ -43,7 +43,7 @@ function App() {
 						</p>
 						<p className="text-3xl font-semibold tracking-wide text-indigo-400 font-open-sans">
 							mattjschad.com
-							<span className="path">{window.path}</span>
+							<span className="path">/{window.path}</span>
 						</p>
 						<p
 							className="text-3xl font-semibold tracking-wide font-source-sans-pro"
