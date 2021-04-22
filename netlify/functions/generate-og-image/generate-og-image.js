@@ -27,13 +27,14 @@ const handler = async (event, ctx) => {
       </body>
     </html>
   `);
+	const { queryStringParameters } = event;
 	await page.addStyleTag({
 		url: 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css',
 	});
 	await page.addScriptTag({
 		content: `
-    window.title = "title from script"
-    window.path = "/path"
+    window.title = "${queryStringParameters.title || 'No Title'}";
+    window.path = "${queryStringParameters.id}";
     window.base64Profile = "data:image/png;base64, ${profileImage}";
   `,
 	});
