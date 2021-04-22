@@ -11,6 +11,8 @@ export default function Post({ postData }) {
 				<title>{postData.title}</title>
 				<meta name="description" content={postData.description} />
 				<meta name="og:title" content={postData.title} />
+				<meta name="twitter:site" content="@mattjschad" />
+				<meta name="twitter:creator" content="@mattjschad" />
 				<meta
 					property="og:image"
 					content="https://mystifying-allen-8ced63.netlify.app/.netlify/functions/generate-og-image"
