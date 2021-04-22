@@ -1,7 +1,7 @@
 import Layout from '../../components/layout';
 import Head from 'next/head';
 import { getAllPostIds, getPostData } from '../../lib/posts';
-import Date from '../../components/date'
+import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 
 export default function Post({ postData }) {
@@ -11,18 +11,23 @@ export default function Post({ postData }) {
 				<title>{postData.title}</title>
 				<meta name="description" content={postData.description} />
 				<meta name="og:title" content={postData.title} />
-				<meta property="og:image" content='' key="og-image" />
+				<meta
+					property="og:image"
+					content="https://mystifying-allen-8ced63.netlify.app/.netlify/functions/generate-og-image"
+					key="og-image"
+				/>
 			</Head>
 			<article>
 				<h1 className={utilStyles.headingXl}>{postData.title}</h1>
 				<div className={utilStyles.lightText}>
 					<Date dateString={postData.date} />
 				</div>
-				<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+				<div
+					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+				/>
 			</article>
 		</Layout>
-
-	)
+	);
 }
 
 export async function getStaticPaths() {
@@ -30,8 +35,8 @@ export async function getStaticPaths() {
 	const paths = getAllPostIds();
 	return {
 		paths,
-		fallback: false
-	}
+		fallback: false,
+	};
 }
 
 export async function getStaticProps({ params }) {
@@ -40,6 +45,6 @@ export async function getStaticProps({ params }) {
 	return {
 		props: {
 			postData,
-		}
-	}
+		},
+	};
 }
