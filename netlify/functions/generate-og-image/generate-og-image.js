@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const playwright = require('playwright-aws-lambda');
 const script = fs.readFileSync(path.join(__dirname, '/image.js'), 'utf-8');
-const profileImage = fs.readFileSync(path.join(__dirname), 'profile.jpeg', { encoding: 'base64' })
+const profileImage = fs.readFileSync(path.join(__dirname, 'profile.jpeg'), { encoding: 'base64' })
 
 
 const handler = async (event, ctx) => {
