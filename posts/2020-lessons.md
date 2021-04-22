@@ -1,6 +1,6 @@
 ---
 title: 2020 in review
-date: 2021-01-01
+date: 01/01/2021
 draft: false
 thumbnail: images/2021-03-17-08.30.04.jpg
 description: Reviewing lessons about what is important, learned in 2020
