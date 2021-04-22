@@ -29,9 +29,10 @@ const handler = async (event, ctx) => {
   await page.addStyleTag({ url: 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css' })
   await page.addScriptTag({
     content: `
-    window.base64Profile = ${profileImage};
+    window.base64Profile = data:image/png;base64, ${profileImage};
   ` });
-  console.log(profileImage)
+  const string = await page.evaluate(() => window.base64Profile)
+  console.log(string);
   await page.addScriptTag({ content: script });
 
   const boundingRect = await page.evaluate(() => {
