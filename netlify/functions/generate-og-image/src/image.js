@@ -33,7 +33,7 @@ function App() {
 				<div className="flex items-center space-x-6">
 					<img
 						src='./profile.jpeg'
-						onError={console.log(error)}
+						onError={(error) => console.log(error)}
 						alt="Matthew Schad"
 						className="flex-none w-32 h-32 border-4 border-gray-200 rounded-full"
 					/>
