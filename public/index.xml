@@ -4,8 +4,17 @@
 		  <title>Matthew Schad - Blog about Software Engineering</title>
 		  <link>https://www.bergqvist.it</link>
 		  <language>en</language>
-		  <lastBuildDate>Sat, 30 Jan 2021 04:36:35 GMT</lastBuildDate>
+		  <lastBuildDate>Thu, 22 Apr 2021 04:00:00 GMT</lastBuildDate>
 		  
+		<item>
+		  <title>Test Title!</title>
+		  <link>https://matthewschad.com/posts/2021-04-22-test-title</link> 
+		  <pubDate>Thu, 22 Apr 2021 04:00:00 GMT</pubDate>
+		  <description>
+		  <![CDATA[Test Description!]]>
+		  </description>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+	  </item>
 		<item>
 		  <title>There's no need to chase purpose</title>
 		  <link>https://matthewschad.com/posts/life-doesnt-need-purpose-to-be-happy</link> 
@@ -36,7 +45,7 @@
 		<item>
 		  <title>2020 in review</title>
 		  <link>https://matthewschad.com/posts/2020-lessons</link> 
-		  <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+		  <pubDate>Fri, 01 Jan 2021 05:00:00 GMT</pubDate>
 		  <description>
 		  <![CDATA[Reviewing lessons about what is important, learned in 2020]]>
 		  </description>
