@@ -20,6 +20,5 @@ collections:
                 dateFormat: 'YYYY-MM-DD',
                 format: 'L',
             }
-          - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
           - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
