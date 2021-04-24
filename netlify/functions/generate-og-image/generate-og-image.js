@@ -38,20 +38,16 @@ const handler = async (event, ctx) => {
     window.base64Profile = "data:image/png;base64, ${profileImage}";
   `,
   });
-  const string = await page.evaluate(() => window.base64Profile);
-  console.log(string);
   await page.addScriptTag({ content: script });
 
   const boundingRect = await page.evaluate(() => {
     const corgi = document.getElementById('corgi');
-    console.log(corgi);
     const {
       x,
       y,
       width,
       height,
-    } = corgi.children[1].getBoundingClientRect();
-    console.dir(JSON.stringify(corgi));
+    } = corgi.children[0].getBoundingClientRect();
     return { x, y, width, height };
   });
 
