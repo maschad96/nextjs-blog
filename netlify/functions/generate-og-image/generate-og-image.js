@@ -50,7 +50,7 @@ const handler = async (event, ctx) => {
       y,
       width,
       height,
-    } = corgi.children[0].getBoundingClientRect();
+    } = corgi.children[1].getBoundingClientRect();
     console.dir(JSON.stringify(corgi));
     return { x, y, width, height };
   });

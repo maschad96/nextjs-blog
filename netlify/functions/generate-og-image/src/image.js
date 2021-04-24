@@ -13,7 +13,7 @@ function getFontSize(length) {
 // Example URL: http://localhost:3000/ogImage?title=Hello%20mein%20Name%20ist%20Florian!&url=https://mattjschad.com/hello-world
 function App() {
 	return (
-		<>
+		<div>
 			<head>
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@700&display=swap" />
 			</head>
@@ -69,7 +69,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 
