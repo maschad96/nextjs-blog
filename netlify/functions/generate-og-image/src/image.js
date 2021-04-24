@@ -24,7 +24,7 @@ function App() {
 			<div className="max-w-screen-lg space-y-2">
 				<h1
 					className={`font-bold text-gray-100 font-source-sans-pro ${getFontSize(
-						window.title
+						window.title.length
 					)}`}
 				>
 					{window.title}
