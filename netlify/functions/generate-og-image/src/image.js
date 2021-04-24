@@ -57,9 +57,9 @@ function App() {
 								UX Engineer and Designer
 							</p>
 							<p
+								className="text-gray-300"
 								css={{
 									"font-family": "Inter",
-									color: "#1D9BF0",
 									"font-size": 32
 								}}
 							>
