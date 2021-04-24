@@ -35,13 +35,13 @@ function App() {
 						<img
 							src={window.base64Profile}
 							alt="Matthew Schad"
-							className="flex-none w-40 h-40 border-2 border-gray-200 rounded-full profile"
+							className="flex-none w-48 h-48 border-2 border-gray-200 rounded-full profile"
 						/>
 						<div className="flex flex-col gap">
 							<p
 								css={{
 									"font-family": "Inter",
-									"font-size": 31,
+									"font-size": 36,
 									"margin-bottom": 10
 								}}
 							>
@@ -50,7 +50,7 @@ function App() {
 							<p
 								css={{
 									"font-family": "Inter",
-									"font-size": 24,
+									"font-size": 32,
 									"margin-bottom": 15
 								}}
 							>
@@ -60,7 +60,7 @@ function App() {
 								css={{
 									"font-family": "Inter",
 									color: "#1D9BF0",
-									"font-size": 24
+									"font-size": 32
 								}}
 							>
 								@mattjschad
