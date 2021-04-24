@@ -17,6 +17,7 @@ function App() {
 		<>
 			<GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@700&display=swap" />
 			<div
+				id="image"
 				className="relative flex flex-col justify-between p-16 text-white bg-black shadow-md"
 				css={{ width: 1200, height: 630 }}
 			>
