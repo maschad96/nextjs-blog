@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import { render } from 'react-dom';
-import { GoogleFonts } from 'next-google-fonts';
 
 function getFontSize(length) {
 	if (length >= 32) {
@@ -15,7 +14,9 @@ function getFontSize(length) {
 function App() {
 	return (
 		<>
-			<GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@700&display=swap" />
+			<head>
+				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@700&display=swap" />
+			</head>
 			<div
 				id="image"
 				className="relative flex flex-col justify-between p-16 text-white bg-black shadow-md"
