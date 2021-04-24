@@ -79,9 +79,11 @@ You should now have a resource group that Azure Services can be associated with.
 
 3. Map the cdnverify subdomain to validate the domain with the CDN.
 
+    ```markdown
     | Source                         | Type  | Destination                               |
     | ------------------------------ | ----- | ----------------------------------------- |
     | cdnverify.www.matthewschad.com | CNAME | cdnverify.cdn-endpoint-name.azureedge.net |
+    ```
 
     ([Microsoft Docs Reference](https://docs.microsoft.com/en-us/azure/cdn/cdn-map-content-to-custom-domain))
 

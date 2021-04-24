@@ -17,6 +17,10 @@ blockquote {
     margin-bottom: 1rem;
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
 .content {
     h2 {
         margin-bottom: 0.5rem;
@@ -26,19 +30,21 @@ blockquote {
         margin-bottom: 0.5rem;
     }
 
-    p {
-        margin-bottom: 1rem;
-    }
-
-    li {
-        line-height: 1.8;
-    }
-
     li > p {
         margin-bottom: 0;
     }
 
     ul > li:last-child {
         margin-bottom: 0.5rem;
+    }
+
+    pre {
+        margin-bottom: 1rem;
+    }
+
+    code[class^='language-'] {
+        border-radius: 4px;
+        padding: 1rem;
+        font-size: 0.7rem;
     }
 }
