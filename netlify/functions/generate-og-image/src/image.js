@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react';
 import { render } from 'react-dom';
-import { GoogleFonts } from 'next/google-fonts';
+import GoogleFonts from 'next/google-fonts';
 
 function getFontSize(length) {
 	if (length >= 32) {
