@@ -14,6 +14,7 @@ export default function Home({ allPostsData }) {
 				<title>{siteTitle}</title>
 				<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 				<meta name="description" content={siteDescription} />
+				<meta name="og:description" content={siteDescription} key="og-description" />
 				<meta name="og:title" content={siteTitle} />
 				<meta name="twitter:site" content="@mattjschad" />
 				<meta name="twitter:creator" content="@mattjschad" />

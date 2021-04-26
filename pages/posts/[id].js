@@ -10,6 +10,7 @@ export default function Post({ postData }) {
 			<Head>
 				<title>{postData.title}</title>
 				<meta name="description" content={postData.description} />
+				<meta name="og:description" content={postData.description} key="og-description" />
 				<meta name="og:title" content={postData.title} />
 				<meta name="twitter:site" content="@mattjschad" />
 				<meta name="twitter:creator" content="@mattjschad" />
