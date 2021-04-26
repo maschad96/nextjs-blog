@@ -24,14 +24,13 @@ In the order of more to less replicable, there are a few standard online product
 
 1. Information products
 
-    1. Books
+   1. Books
 
-    2. Courses
+   2. Courses
 
-    3. Newsletters
+   3. Newsletters
 
-    4. Data
-
+   4. Data
 2. Community Access
 3. Media (Photography, Video, Sound bites)
 4. Software
