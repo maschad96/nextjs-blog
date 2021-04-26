@@ -10,7 +10,6 @@ function getFontSize(length) {
 	return `text-8xl`;
 }
 
-// Example URL: http://localhost:3000/ogImage?title=Hello%20mein%20Name%20ist%20Florian!&url=https://mattjschad.com/hello-world
 function App() {
 	return (
 		<div>

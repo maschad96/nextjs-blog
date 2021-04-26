@@ -14,6 +14,16 @@ const Layout = ({ children, home }) => (
 			/>
 			<meta name="og:title" content={siteTitle} />
 			<meta name="twitter:card" content="summary_large_image" />
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148020861-1"></script>
+			<script dangerouslySetInnerHTML={{
+				__html: `
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+
+					gtag('config', 'UA-148020861-1');
+				`
+			}} />
 		</Head>
 		<header className={styles.header}>
 			{home ? (
