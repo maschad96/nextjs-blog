@@ -6,3 +6,8 @@
 [context.production.environment]
 	NEXT_SERVERLESS = "true"
 	NODE_ENV = "production"
+[[redirects]]
+	from = "/opengraph"	
+	to = "/.netlify/functions/process-url"
+	status = 200
+	force = true

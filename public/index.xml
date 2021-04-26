@@ -4,8 +4,17 @@
 		  <title>Matthew Schad - Blog about Software Engineering</title>
 		  <link>https://www.bergqvist.it</link>
 		  <language>en</language>
-		  <lastBuildDate>Sat, 30 Jan 2021 04:36:35 GMT</lastBuildDate>
+		  <lastBuildDate>Mon, 26 Apr 2021 04:00:00 GMT</lastBuildDate>
 		  
+		<item>
+		  <title>Code once, ship twice</title>
+		  <link>https://matthewschad.com/posts/2021-04-26-code-once-ship-twice</link> 
+		  <pubDate>Mon, 26 Apr 2021 04:00:00 GMT</pubDate>
+		  <description>
+		  <![CDATA[While you're spending time on configuration and starting decisions, others are shipping outputs]]>
+		  </description>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+	  </item>
 		<item>
 		  <title>There's no need to chase purpose</title>
 		  <link>https://matthewschad.com/posts/life-doesnt-need-purpose-to-be-happy</link> 
