@@ -1,7 +1,8 @@
 [build]
 	command="make install"
+	functions=".netlify/functions"
 [functions]
-	directory="netlify/functions/"
+	directory=".netlify/functions/"
 [context.production.environment]
 	NEXT_SERVERLESS = "true"
 	NODE_ENV = "production"
