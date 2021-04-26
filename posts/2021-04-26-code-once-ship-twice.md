@@ -25,11 +25,8 @@ In the order of more to less replicable, there are a few standard online product
 1. Information products
 
    1. Books
-
    2. Courses
-
    3. Newsletters
-
    4. Data
 2. Community Access
 3. Media (Photography, Video, Sound bites)
@@ -43,4 +40,4 @@ If the delivery is similar for each model, why should my process be different ea
 
 The output doesn't care if I use raw HTML and JavaScript every time with custom routing code and a nit-picky development process – it cares about getting shipped and into the hands of customers.
 
-**\*\*TL;DR:\*\*** When you're building a product, optimize for reusing the output model, not making a "unique product."
+**TL;DR:** When you're building a product, optimize for reusing the output model, not making a "unique product."
