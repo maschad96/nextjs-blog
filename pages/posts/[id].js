@@ -15,7 +15,7 @@ export default function Post({ postData }) {
 				<meta name="twitter:creator" content="@mattjschad" />
 				<meta
 					property="og:image"
-					content={`https://mystifying-allen-8ced63.netlify.app/.netlify/functions/generate-og-image?title=${postData.title}&id=${postData.id}`}
+					content={`https://matthewschad.com/opengraph?title=${postData.title}&id=${postData.id}`}
 					key="og-image"
 				/>
 			</Head>

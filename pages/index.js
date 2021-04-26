@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
 				<meta name="twitter:creator" content="@mattjschad" />
 				<meta
 					property="og:image"
-					content="https://mystifying-allen-8ced63.netlify.app/images/site-og.png"
+					content="https://matthewschad.com/images/site-og.png"
 					key="og-image"
 				/>
 			</Head>
