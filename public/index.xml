@@ -8,57 +8,423 @@
 		  
 		<item>
 		  <title>Code once, ship twice</title>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
 		  <link>https://matthewschad.com/posts/2021-04-26-code-once-ship-twice</link> 
 		  <pubDate>Mon, 26 Apr 2021 04:00:00 GMT</pubDate>
 		  <description>
 		  <![CDATA[While you're spending time on configuration and starting decisions, others are shipping outputs]]>
 		  </description>
-		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+		  <content:encoded>
+		  <![CDATA[<p>As a dev, every time I start a project, I want to think of the "from scratch" process, but why?</p>
+<p>The process statement should be "I will want to build many things throughout my life," as opposed to "I want to build this one product differently."</p>
+<p>Every time you decide to start a project from scratch, you fall into the pit of deciding on the tech stack, deciding on the framework, deciding on environment configuration settings, deciding on what to use for auth, deciding on if it needs a CMS. While you start from scratch and revisit all of these decision-making processes, another developer begins from a better point, jumping miles ahead of you.</p>
+<p>In software, there are plenty of ways to skip some of the pain of restarting:</p>
+<ol>
+<li>Github Template Repositories</li>
+<li>NextJS and Netlify are an excellent toolkit for rapid deployment</li>
+<li>Planning a stepping stone process (from product A to product B, C, or D)</li>
+<li>Replicable DevOps Setups (e.g., Azure Resource Groups)</li>
+</ol>
+<p>If product A fails, how are you going to use it for product B?</p>
+<p>In the order of more to less replicable, there are a few standard online product models in today's world:</p>
+<ol>
+<li>
+<p>Information products</p>
+<ol>
+<li>Books</li>
+<li>Courses</li>
+<li>Newsletters</li>
+<li>Data</li>
+</ol>
+</li>
+<li>
+<p>Community Access</p>
+</li>
+<li>
+<p>Media (Photography, Video, Sound bites)</p>
+</li>
+<li>
+<p>Software</p>
+</li>
+<li>
+<p>Tangible, shipped products</p>
+</li>
+<li>
+<p>Professional Services</p>
+</li>
+</ol>
+<p>These are mediums for value, and the delivery format is often replicable.</p>
+<p>If the delivery is similar for each model, why should my process be different each time?</p>
+<p>The output doesn't care if I use raw HTML and JavaScript every time with custom routing code and a nit-picky development process – it cares about getting shipped and into the hands of customers.</p>
+<p><strong>TL;DR:</strong> When you're building a product, optimize for reusing the output model, not making a "unique product."</p>
+]]>
+		  </content:encoded>
 	  </item>
 		<item>
 		  <title>There's no need to chase purpose</title>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
 		  <link>https://matthewschad.com/posts/life-doesnt-need-purpose-to-be-happy</link> 
 		  <pubDate>Sat, 30 Jan 2021 04:36:35 GMT</pubDate>
 		  <description>
 		  <![CDATA[Observations on living in the moment rather than chasing a purpose.]]>
 		  </description>
-		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+		  <content:encoded>
+		  <![CDATA[<p>Every self-help book we read will tell us about living a meaningful life and living with purpose. Still, none of these books won't ever tell us that it's terrific to be content with ourselves, only ourselves, without a sense of anything other than yourself and gratitude.</p>
+<p>Some might call this selfish. I don't think humility needs to be selfless - humility can be full of yourself, full of others, or full of surroundings.</p>
+<p>A book observing Stoicism that I've recently read, "Ego Is The Enemy," by Ryan Holiday, dives deep on living with purpose, teaches to live with purpose - not passion. While I enjoy the book and agree with a lot of its contents, I don't think people should stress about choosing purpose over passion, or vice versa.</p>
+<p>I want to live each moment to its fullest, without 'fullest' having any implied meaning or obligation.</p>
+<p>A quote on the topic that made me smile today:</p>
+<blockquote>
+<p>"I heard this story about a fish. He swims up to an older fish and says: "I'm trying to find this thing they call the ocean." "The ocean?" the older fish says, "that's what you're in right now." "This," says the young fish, "this is water. What I want is the ocean!" - Dorothea in <strong><a href="https://www.imdb.com/title/tt2948372/">Soul</a></strong>.</p>
+</blockquote>
+<p>To put it simply - choosing joy before purpose and method seem effective; it seems to keep us present and in the moment.</p>
+<p>The benefits we work for come as a side effect to choosing life. People are more productive and sociable when they are happy and living each moment fully, not when they choose purpose and self-criticism before smiles and laughter.</p>
+]]>
+		  </content:encoded>
 	  </item>
 		<item>
 		  <title>Being right isn't important</title>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
 		  <link>https://matthewschad.com/posts/being-wrong-isnt-wrong</link> 
 		  <pubDate>Wed, 27 Jan 2021 02:58:28 GMT</pubDate>
 		  <description>
 		  <![CDATA[Looking into why we feel the need to be correct]]>
 		  </description>
-		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+		  <content:encoded>
+		  <![CDATA[<p>Have you ever had your evidence-proven arguments shot down because your counterpart just had to be right?</p>
+<p>I'm sure you've done it yourself too. I think we all experience it with our parents or one another at some point.</p>
+<p>When coping under high stress, fear, or distrust, your brain releases cortisol. Executive functions responsible for strategy, trust, and empathy come to a halt. Your instincts take over and determine how to best protect from shame or loss of power, bludgeoning your ability to regulate emotions.</p>
+<p>Common responses under such pressure are:</p>
+<ul>
+<li>Fight (argue the point)</li>
+<li>Flight (revert to group consensus)</li>
+<li>Freeze (disengage entirely)</li>
+<li>Appease (play nice by agreeing)</li>
+</ul>
+<p>All of these responses stop us from sharing our perspectives, causing harm to relationships in the end.</p>
+<p>Arguing and winning fills us with adrenaline and dopamine, adding to the addiction of being correct.</p>
+<p>If one leader is high on dominance, others are drowned into submission and responding in one of the four ways noted above.</p>
+<h2>What's the alternative?</h2>
+<p>Instead of choosing defensive, offensive, and egotistical games employing arguments, why not open up trust and sharing?</p>
+<p>The goal is to release oxytocin, opening our prefrontal cortex, inducing trust and connection.</p>
+<p>These are a few exercises that can help solve the problem:</p>
+<ul>
+<li>Have everybody write down their ideas and the conclusion in a place where everybody can see them; there is more accountability in the written word than the verbal brush-offs.</li>
+<li>Speak less, listen more. It creates a circle of trust when everybody wants to understand each others' blockers.</li>
+<li>Set the meeting agenda by asking all attendees for important information and blockers - not status updates. Seek the signal and reduce the noise.</li>
+</ul>
+<p>In fights, people are upset when their counterparts are correct; in sportsmanship, they connect.</p>
+]]>
+		  </content:encoded>
 	  </item>
 		<item>
 		  <title>Journey into minimalism</title>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
 		  <link>https://matthewschad.com/posts/journey-into-minimalism</link> 
 		  <pubDate>Sun, 03 Jan 2021 00:43:44 GMT</pubDate>
 		  <description>
 		  <![CDATA[undefined]]>
 		  </description>
-		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+		  <content:encoded>
+		  <![CDATA[<p>When I moved to Florida on Christmas, I purged almost all of my possessions. Seriously, almost everything.</p>
+<p>At first, I considered it a culmination of losses - now, after pulling the trigger, I think only benefits came from it.</p>
+<p>There are a plethora of things I owned that didn't bring as much value to my life as I thought they would:</p>
+<ul>
+<li>a photo backdrop</li>
+<li>standing Desk</li>
+<li>$400 chair</li>
+<li>Yeti microphone</li>
+<li>LED ring light</li>
+<li>IKEA furniture for the company I never had</li>
+<li>IKEA rugs</li>
+<li>IKEA chest of drawers containing nothing but items that didn't provide value</li>
+<li>road bike that I never rode</li>
+<li>clothes that didn't fit well or look good</li>
+<li>instant pot that didn't get used</li>
+<li>blender that didn't get used</li>
+<li>car</li>
+<li>plenty of other shit that I can't remember</li>
+</ul>
+<p>I also had collected home-workout equipment since my apartment building gym wasn't open due to lockdown measures. I didn't feel like leaving and going on a trip to the gym every day. Home gyms can take up quite a bit of space in a studio apartment.</p>
+<h2>The Move</h2>
+<p>When I packed my bags, I left with:</p>
+<ul>
+<li><a href="https://amzn.to/2MkMSr2">clothes iron</a></li>
+<li><a href="https://amzn.to/3n8Qf0X">lav microphone</a></li>
+<li><a href="https://amzn.to/3pLDag2">seat cushion</a></li>
+<li><a href="https://amzn.to/3hACPd7">stick vacuum</a></li>
+<li>4 pairs of pants</li>
+<li>7 shirts</li>
+<li>camera</li>
+<li>headphones</li>
+<li>hygiene essentials</li>
+<li>two mechanical keyboards (still excessive, but I enjoy these)</li>
+<li>personal laptop</li>
+<li>work laptop</li>
+</ul>
+<p>I fit everything into two suitcases.</p>
+<p>I fell into the trap of purchasing to fill tiny pockets of required dopamine rather than living life itself.</p>
+<p>Moving forward, I will actively ask, "does this bring me value," before I waste my space, time, and energy.</p>
+]]>
+		  </content:encoded>
 	  </item>
 		<item>
 		  <title>2020 in review</title>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
 		  <link>https://matthewschad.com/posts/2020-lessons</link> 
 		  <pubDate>Fri, 01 Jan 2021 05:00:00 GMT</pubDate>
 		  <description>
 		  <![CDATA[Reviewing lessons about what is important, learned in 2020]]>
 		  </description>
-		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+		  <content:encoded>
+		  <![CDATA[<p>Purchasing products to fill a void is a losing battle from the start.
+No products will give you the ~feel~ or the ~discipline~ to seek out that value that you feel like providing.</p>
+<p>2020 was a year where I fell deep into pessimism, and combatting it was not at the forefront; optimism was not a priority.</p>
+<p>For Thanksgiving, I saw my girlfriend, who I left at home in Florida for a Washington job. When I visited, I felt happier, healthier, and like I had a sense of purpose again. Why is this a vacation feeling? This should be the way we live every day.'</p>
+<p>As soon as I landed back in Seattle, I felt the same gloom, depression, anxiety, hatred, pessimism. It was this moment where I decided, "I'm moving back."</p>
+<p>I purchased a one-way ticket to Florida for Christmas Night and spent the next month offloading all of my possessions. I moved to Florida with a week's worth of clothes, my laptops, the very few things in my life that provided value. I had accumulated so much bullshit and such little happiness.</p>
+<p>Now that I'm here, I feel right again. I wake up and go to sleep with gratitude. I am optimistic also. I seek no satisfaction or validation in the inanimate objects surrounding me. I am ready for life and experience.</p>
+<p>So what changed?</p>
+<p>Choosing money, location, and the hope for "success" over your tribe will ruin you if the timing is right.</p>
+<p>After moving in with my girlfriend and purging my possessions, I wake up happy. Instead of thinking about what I may use, consume, or take, I'm pondering - "How will I provide value to others? How can I continue to stop taking and give more? What do I have to give?"</p>
+<p>I am happy to start fresh. I am ready to provide and to innovate with peers. This year, I am prepared to give and not take.</p>
+]]>
+		  </content:encoded>
 	  </item>
 		<item>
 		  <title>Building a Hugo website on Azure CDN and Blob Storage</title>
+		  <author>matt@exactstrategy.com (Matthew Schad)</author>
 		  <link>https://matthewschad.com/posts/azure-cdn-and-static-website</link> 
 		  <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
 		  <description>
 		  <![CDATA[undefined]]>
 		  </description>
-		  <author>matt@exactstrategy.com (Matthew Schad)</author>
+		  <content:encoded>
+		  <![CDATA[<p>I recently built this blog with Hugo and thought I'd write a post about the process. To start, these are the following resources I used in Azure:</p>
+<ul>
+<li>CDN</li>
+<li>Storage Account
+<ul>
+<li>Type: Blob</li>
+<li>The "Static Website" will be used in this example</li>
+</ul>
+</li>
+<li>DNS Zone</li>
+<li>Azure DevOps
+<ul>
+<li>DevOps Pipelines for Deployment</li>
+</ul>
+</li>
+</ul>
+<p>There are other simple ways to accomplish this such as GitHub Pages and Actions, but I'm doing it to learn more about Azure Services and play with the Pipelines feature.</p>
+<p>Let's get into it! These are the steps that I followed in Azure:</p>
+<h2>Set up the repo in DevOps</h2>
+<ol>
+<li>Put your static site on a GitHub repo</li>
+<li>Navigate to <a href="https://dev.azure.com">Azure Devops</a> and set up a project</li>
+<li>Import the repo to DevOps using the clone URL, username, and a personal access token. Here's some direction on <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">how to set up a Personal Access Token (PAT)</a></li>
+</ol>
+<p>Great, now you have your repo imported!</p>
+<h2>Set up the Resource Group in Azure Portal</h2>
+<ol>
+<li>On the <a href="https://portal.azure.com">Azure Portal Homepage</a>, there is a section titled 'Navigate'. Under there, Resource Groups is listed</li>
+<li>Add a new resource group and name it whatever you like; I used the 'personal-blog' naming convention, and named my other resources similarly to keep the list easy to parse</li>
+</ol>
+<p>You should now have a resource group that Azure Services can be associated with.</p>
+<h2>Set up the Storage Account in Azure Portal</h2>
+<ol>
+<li>
+<p>Navigate to the Storage Accounts resource and click 'Add' (Here's a link for the lazy: <a href="https://portal.azure.com/#create/Microsoft.StorageAccount">Create Microsoft Storage Account</a>)</p>
+</li>
+<li>
+<p>Select the resource group that we just created</p>
+</li>
+<li>
+<p>Choose your storage account name (mine will be <code>personal-blog-storage</code>, matching my naming convention)</p>
+</li>
+<li>
+<p>Select the region you'd prefer</p>
+</li>
+<li>
+<p>Select the performance level you prefer; in my case, it's a small static site and not a critical service, so I've chosen "Standard" and "StorageV2" with "Read-access geo-redundant storage (RA-GRS)". My access tier is set to "Hot"</p>
+</li>
+<li>
+<p>Navigate to the "Static Website" page, located under "Settings" in sidebar</p>
+<ol>
+<li>Enable the "Static Website" option, and clipboard the "Primary Endpoint" for the next steps</li>
+<li>Set the "Index document name" field to <code>index.html</code></li>
+</ol>
+</li>
+</ol>
+<h2>Set up the CDN in Azure Portal</h2>
+<ol>
+<li>
+<p>Set up your CDN Profile</p>
+<ol>
+<li>
+<p>On the form to create a CDN profile, enter in the name of the profile, in my case <code>personal-blog-cdn</code>, select the subscription and resource group</p>
+</li>
+<li>
+<p>Select the desired pricing tier; the Premium Verizon option is good if you want to handle URL rewrites (www to non-www for example)</p>
+</li>
+<li>
+<p>Check the 'Create a new CDN endpoint now' radio field, and then:</p>
+<ol>
+<li>Name the endpoint</li>
+<li>Set the 'Origin hostname' to the value we saved from the "Static Website" panel when setting up the storage account (e.g: <code>https://storageaccountname.z19.web.core.windows.net/</code>)</li>
+</ol>
+</li>
+<li>
+<p>Submit, and allow that process to finish</p>
+</li>
+<li>
+<p>Navigate to the newly created CDN endpoint, and document the "Endpoint hostname" shown in the overview panel; this will be used in step 4 of the next section</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2>Set up the DNS zone and point the necessary records</h2>
+<ol>
+<li>
+<p>Set up a DNS zone for your domain</p>
+<ol>
+<li>
+<p>Point your domain to the Azure nameservers shown in the DNS Zone "Overview" panel</p>
+</li>
+<li>
+<p>Allow this to propagate; it should be rather quick. To check if the change is setup, use the appropriate command for your OS to check nameservers:</p>
+<ul>
+<li>Linux/Mac: <code>dig ns yourdomainname.com</code></li>
+<li>Windows: <code>nslookup -type=ns yourdomainname.com</code></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>Add an A record</p>
+<ol>
+<li>Set 'Alias Record Set' to 'Yes'</li>
+<li>Set 'Alias Type' to 'Azure Resource'</li>
+<li>Select your site's Subscription and Resource, and set TTL to 1 second</li>
+</ol>
+</li>
+<li>
+<p>Map the cdnverify subdomain to validate the domain with the CDN.</p>
+<pre><code class="language-markdown">| Source                         | Type  | Destination                               |
+| ------------------------------ | ----- | ----------------------------------------- |
+| cdnverify.www.matthewschad.com | CNAME | cdnverify.cdn-endpoint-name.azureedge.net |
+</code></pre>
+<p>(<a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-map-content-to-custom-domain">Microsoft Docs Reference</a>)</p>
+</li>
+<li>
+<p>Point a CNAME for www to your site</p>
+<ol>
+<li>Add a CNAME record</li>
+<li>Set the 'Name' to www</li>
+<li>Set the Alias to your CDN endpoint URL we documented<br><small>This will allow the CDN endpoint to validate the domain name that we add</small></li>
+</ol>
+</li>
+<li>
+<p>Add the domain name(s) to the CDN endpoint (both www and non-www) from the "Custom Domains" link in the left sidebar</p>
+</li>
+<li>
+<p>Check DNS propagation with <a href="https://www.whatsmydns.net/">whatsmydns.net</a></p>
+</li>
+</ol>
+<h2>Set up the DevOps pipelines for git deployment to the storage account</h2>
+<h3>Set up the pipeline to generate the build artifact</h3>
+<p>We'll be working on two tasks in <a href="https://dev.azure.com/">Azure Devops</a>:</p>
+<ol>
+<li>Set up the pipeline tasks that give us our build artifact</li>
+<li>Set up the release pipeline that takes that build artifact and replaces the Storage Account file contents with the contents of our latest push</li>
+</ol>
+<p>DevOps pipelines can be controlled from the GUI in DevOps, but in this case we'll create an <code>azure-pipelines.yml</code> file within our project that will be referenced in DevOps.</p>
+<p>We'll use pipelines to make sure Hugo is updated to our desired point release, to build the blog, to copy the contents of the blog, and then upload those contents to a build artifact that will be accessible by our release pipeline. Pipelines are flexible and can include any other tasks or tests you might want to build into the process.</p>
+<p>When configuring <code>azure-pipelines.yml</code>, I originally referenced <a href="https://medium.com/@kurtmkurtm/setting-up-a-blog-with-the-hugo-framework-on-azure-blob-storage-12605609a90">a tutorial written up by kurtkurtm</a>, but then added an additional
+first task in the pipeline that will update my forked theme with what's in the master branch.</p>
+<pre><code class="language-yml">#
+# Azure pipeline to build and publish a hugo blog release
+# github.com/kurtmkurtm
+#
+
+trigger:
+    - master
+
+pool:
+    vmImage: 'ubuntu-16.04'
+
+variables:
+    hugo.version: '0.55.6'
+    blog.path: 'hugo-blog'
+
+steps:
+    - script: 'git submodule update --init --recursive'
+      displayName: 'Update Theme'
+
+    - script: |
+          wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb
+      displayName: 'Download HUGO'
+
+    - script: 'sudo dpkg -i hugo_$(hugo.version)_Linux-64bit.deb'
+      displayName: 'Install HUGO'
+
+    - script: |
+          hugo --log -v
+      displayName: 'Generate Blog'
+
+    - task: CopyFiles@2
+      displayName: 'Copy Blog'
+      inputs:
+          SourceFolder: 'public'
+          Contents: '**'
+          TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+    - task: PublishBuildArtifacts@1
+      displayName: Publish Blog
+      inputs:
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+          ArtifactName: Drop
+          publishLocation: 'Container'
+</code></pre>
+<p>After that config is created and your repo is connected to DevOps, push up any changes and create a pipeline referencing that ARM template in Azure Devops.</p>
+<h3>Set up the release pipeline to update the Storage Account file contents</h3>
+<ol>
+<li>Go to Pipelines -> Releases, in the left-hand sidebar</li>
+<li>Create a "new release pipeline", starting with an Empty job</li>
+<li>Name your Stage "Deploy Site" or any name you prefer</li>
+<li>Add an Artifact that will be dropped in
+<ol>
+<li>Set "Source Type" to "Build"</li>
+<li>Set "Project" and "Source" to the right project and build pipeline</li>
+</ol>
+</li>
+<li>Navigate to the "Tasks" tab in the upper toolbar</li>
+<li>Create an "Azure CLI" task for deleting the storage account contents
+<ol>
+<li>Set the related subscription</li>
+<li>Set "Script Location" to "Inline Script", and use <code>az storage blob delete-batch --account-name {storage_account_name} --account-key {storage_account_key}</code></li>
+</ol>
+</li>
+<li>Create an "Azure File Copy" task for dropping in the build artifact contents to <code>$web</code>
+<ol>
+<li>Set the "Source" directory;
+<ol>
+<li>Using the file explorer tool next to the input, select the Drop directory under your linked artifact</li>
+<li>Your selection should result in a value similar to: <code>$(System.DefaultWorkingDirectory)/linked_artifact_name/Drop</code></li>
+</ol>
+</li>
+<li>Set the "Container Name" to <code>$web</code>, the location of our webroot</li>
+<li>Under Control Options, set "Run this task" to "Only when all previous tasks have succeeded"</li>
+</ol>
+</li>
+</ol>
+<h3>Give it a spin</h3>
+<p>Push some changes in your repo and watch the pipeline output as it runs. If it completes, the release pipeline under "Releases" should then start. Update configuration as needed if it fails, and good luck!</p>
+<h4>Other neat features if you want to take performance a step further</h4>
+<p>You can set up caching rules to optimize performance within the CDN Endpoint settings. More information is located at the <a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-caching-rules">CDN Caching Rules reference</a>.</p>
+<p>With caching set up, a neat feature of Azure CDN is <a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-dynamic-site-acceleration">Dynamic Delivery</a>, which is essentially route optimization and delivers cached content from a route closer to the user.</p>
+]]>
+		  </content:encoded>
 	  </item>
 	  </channel>
 	</rss>
