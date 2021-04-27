@@ -1,10 +1,12 @@
 <?xml version="1.0" ?>
-	<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/">
 	  <channel>
 		  <title>Matthew Schad - Blog about Software Engineering</title>
 		  <link>https://www.matthewschad.com/</link>
 		  <language>en</language>
 		  <lastBuildDate>Mon, 26 Apr 2021 04:00:00 GMT</lastBuildDate>
+		  <description>Articles about web development, software engineering, and rants by Matt Schad</description>
+		  <atom:link href="https://www.matthewschad.com/index.xml" rel="self" type="application/rss+xml"/>
 		  
 		<item>
 		  <title>Code once, ship twice</title>
@@ -59,6 +61,7 @@
 <p><strong>TL;DR:</strong> When you're building a product, optimize for reusing the output model, not making a "unique product."</p>
 ]]>
 		  </content:encoded>
+		  <guid>https://matthewschad.com/posts/2021-04-26-code-once-ship-twice</guid>
 	  </item>
 		<item>
 		  <title>There's no need to chase purpose</title>
@@ -81,6 +84,7 @@
 <p>The benefits we work for come as a side effect to choosing life. People are more productive and sociable when they are happy and living each moment fully, not when they choose purpose and self-criticism before smiles and laughter.</p>
 ]]>
 		  </content:encoded>
+		  <guid>https://matthewschad.com/posts/life-doesnt-need-purpose-to-be-happy</guid>
 	  </item>
 		<item>
 		  <title>Being right isn't important</title>
@@ -116,6 +120,7 @@
 <p>In fights, people are upset when their counterparts are correct; in sportsmanship, they connect.</p>
 ]]>
 		  </content:encoded>
+		  <guid>https://matthewschad.com/posts/being-wrong-isnt-wrong</guid>
 	  </item>
 		<item>
 		  <title>Journey into minimalism</title>
@@ -167,6 +172,7 @@
 <p>Moving forward, I will actively ask, "does this bring me value," before I waste my space, time, and energy.</p>
 ]]>
 		  </content:encoded>
+		  <guid>https://matthewschad.com/posts/journey-into-minimalism</guid>
 	  </item>
 		<item>
 		  <title>2020 in review</title>
@@ -190,6 +196,7 @@ No products will give you the ~feel~ or the ~discipline~ to seek out that value 
 <p>I am happy to start fresh. I am ready to provide and to innovate with peers. This year, I am prepared to give and not take.</p>
 ]]>
 		  </content:encoded>
+		  <guid>https://matthewschad.com/posts/2020-lessons</guid>
 	  </item>
 		<item>
 		  <title>Building a Hugo website on Azure CDN and Blob Storage</title>
@@ -425,6 +432,7 @@ steps:
 <p>With caching set up, a neat feature of Azure CDN is <a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-dynamic-site-acceleration">Dynamic Delivery</a>, which is essentially route optimization and delivers cached content from a route closer to the user.</p>
 ]]>
 		  </content:encoded>
+		  <guid>https://matthewschad.com/posts/azure-cdn-and-static-website</guid>
 	  </item>
 	  </channel>
 	</rss>
